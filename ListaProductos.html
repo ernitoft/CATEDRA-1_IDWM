@@ -1,23 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+<style>
+    .botones{
+        background-color: #c4c4c4   ;
+    }
+</style>
 <body>
-    <div class="container">
-        <div class=""row mt-4 shadow-lg" style="background-color: #e63946; border-radius: 20px;"">
-            <div class="col-md-6">
-                <h1 class="mt-4 m-4 shadow-lg" style="color: white;"><strong>Lista productos</strong></h1>
-        
+    <div class="container-xxl">
+        <div class="row mt-4 shadow-lg" style="background-color: #ff7b00; border-radius: 20px;"">
+            <div class=" col-md-6">
+                <h1 class="mt-4 m-4" style="color: white;"><strong>Lista de Productos</strong></h1>
+            </div>
+            <div class="col-md-6" style="background-color: #f4f4f4">
+                <h1 class="mt-4"> <strong> Cátedra 1</strong></h1>
+                <p class="lead  ">Introducción al Desarrollo Web/Móvil</p>
+                <p>Ernes Fuenzalida Tello
+                    | 21.176.561-5 | 25-10-2023
+                </p>
             </div>
         </div>
+        <div class="row mt-6">
+            <h1 class="mt-2"> Lo más comprado:</h1> 
+        </div>
+        <div class="row mt-4">
+            <!-- Sección de "cards" que permiten visualizar los artículos más comprados del sitio web -->
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Mix-italiano-Jumbo-pote-150-g-1-57509692.jpg" class="card-img-top" alt="mix italiano img">
+                <div class="card-body">
+                  <h5 class="card-title">Mix italiano | Jumbo | $1990</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Mix-italiano-Jumbo-pote-150-g-1-57509692.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+            
+              <div class="card" style="width: 18rem;"">
+                <img src="./assets/img/Principal-35666.jpg" class="card-img-top" alt="soda img">
+                <div class="card-body">
+                  <h5 class="card-title">Soda cáustica | Jumbo | $5000</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Principal-35666.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Castaña-de-caju-100-g.jpg" class="card-img-top" alt="castaña img">
+                <div class="card-body">
+                  <h5 class="card-title">Castañas de Cajú | Jumbo | $1590</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Castaña-de-caju-100-g.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Nuez-cuarto-700-g-1-150161164.jpg" class="card-img-top" alt="castaña img">
+                <div class="card-body">
+                  <h5 class="card-title">Nuez | Jumbo | $890</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Nuez-cuarto-700-g-1-150161164.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="row mt-6">
+            <h1 class="mt-2"> Otros Productos</h1> 
+        </div>
+        <div class="row mt-4">                     
+            <!-- Sección de "cards" que permiten visualizar otros artículos del sitio web -->
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Ciboulette-en-sobre-2-g-1-160576820.jpg" class="card-img-top" alt="ciboulette img">
+                <div class="card-body">
+                  <h5 class="card-title">Ciboulette en sobre | Jumbo | $1590</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Ciboulette-en-sobre-2-g-1-160576820.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Papa-malla-2-kg.jpg" class="card-img-top" alt="papas img">
+                <div class="card-body">
+                  <h5 class="card-title">Malla de papas | Jumbo | $1770</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Papa-malla-2-kg.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Principal-1241.jpg" class="card-img-top" alt="espinaca img">
+                <div class="card-body">
+                  <h5 class="card-title">Espinaca | Jumbo | $1500</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Principal-1241.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/img/Principal-10011.jpg" class="card-img-top" alt="espinaca img">
+                <div class="card-body">
+                  <h5 class="card-title">Bandeja de huevos | Jumbo | $1200</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Principal-10011.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+              <div class="card mt-4" style="width: 18rem;">
+                <img src="./assets/img/Rolls-en-linea-90-g.jpg" class="card-img-top" alt="Rolls img">
+                <div class="card-body">
+                  <h5 class="card-title">Rolls 0% azúcar | Jumbo | $1200</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Rolls-en-linea-90-g.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+              <div class="card mt-4" style="width: 18rem;">
+                <img src="./assets/img/Salmon-ahumado-200-g-1-64896708.jpg" class="card-img-top" alt="salmon img">
+                <div class="card-body">
+                  <h5 class="card-title">Salmón ahumado | Jumbo | $1200</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur veniam molestias. Totam eveniet mollitia reprehenderit. Tempora, iure aut nesciunt possimus commodi sint consequatur quisquam numquam amet! Itaque, ipsa et?</p>
+                  <a href="./assets/img/Salmon-ahumado-200-g-1-64896708.jpg" class="btn btn-primary botones">Ver detalles</a>
+                </div>
+              </div>
+        </div>
     </div>
-    
+</div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </html>
